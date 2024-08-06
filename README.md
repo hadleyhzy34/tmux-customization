@@ -2,6 +2,10 @@
 
 my tmux customization based on tmux, tpm, nord-tmux theme, tmux-prefix-highlight, tmux-cpu
 
+### Demo
+
+![[demo.png]]
+
 ### Installation
 
 #### tmux installation
