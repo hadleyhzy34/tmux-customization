@@ -8,6 +8,8 @@ my tmux customization based on tmux, tpm, nord-tmux theme, tmux-prefix-highlight
 
 ### Installation
 
+---
+
 #### tmux installation
 
 ---
@@ -55,11 +57,13 @@ reference:
 
 ---
 
-````sh
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
-````
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
 
 ### configuration
+
+---
 
 ```sh
 git clone https://github.com/hadleyhzy34/tmux-customization.git
