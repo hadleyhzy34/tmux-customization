@@ -22,9 +22,32 @@ Ubuntu:
 sudo apt-get install tmux
 ```
 
+#### nord theme installation
+
+##### iterm2
+
+Download the latest Nord.itermcolors file from the GitHub repository and import it:
+
+1. Start iTerm2 and open the Preferences
+2. Switch to the Profiles tab located in the topbar
+3. Select the Colors tabs on the right side
+4. Click on the Load Presets drop-down menu and select the Import entry
+5. Import the downloaded Nord.itermcolors file and import it
+
+**Activation**
+
+1. Start iTerm2 and open the Preferences
+2. Switch to the Profiles tab located in the topbar
+3. Select the Colors tabs on the right side
+4. Select an existing profile from the profile list window on the left or create a new profile
+5. Click on the Load Presets drop-down menu and select Nord
+
+reference:
+[nord iterm2](https://github.com/nordtheme/iterm2)
+
 #### tpm installation
 
-````
+````sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm```
 ````
 
