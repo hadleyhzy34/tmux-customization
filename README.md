@@ -12,7 +12,7 @@ my tmux customization based on tmux, tpm, nord-tmux theme, tmux-prefix-highlight
 
 ---
 
-#### tmux installation
+#### 1. tmux installation
 
 Mac OSX:
 
@@ -26,7 +26,7 @@ Ubuntu:
 sudo apt-get install tmux
 ```
 
-#### nord theme installation
+#### 2. nord theme installation
 
 ##### iterm2
 
@@ -51,7 +51,7 @@ Download the latest Nord.itermcolors file from the GitHub repository and import 
 reference:
 [nord iterm2](https://github.com/nordtheme/iterm2)
 
-#### tpm installation
+#### 3. tpm installation
 
 ```sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
