@@ -4,6 +4,8 @@ my tmux customization based on tmux, tpm, nord-tmux theme, tmux-prefix-highlight
 
 ### Demo
 
+---
+
 ![[demo]](./demo.png)
 
 ### Installation
@@ -11,8 +13,6 @@ my tmux customization based on tmux, tpm, nord-tmux theme, tmux-prefix-highlight
 ---
 
 #### tmux installation
-
----
 
 Mac OSX:
 
@@ -27,8 +27,6 @@ sudo apt-get install tmux
 ```
 
 #### nord theme installation
-
----
 
 ##### iterm2
 
@@ -54,8 +52,6 @@ reference:
 [nord iterm2](https://github.com/nordtheme/iterm2)
 
 #### tpm installation
-
----
 
 ```sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
