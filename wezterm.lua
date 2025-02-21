@@ -4,7 +4,8 @@ local function color_scheme_for_appearance(appearance)
 	if appearance:find("Dark") then
 		return "Tokyo Night"
 	else
-		return "Tokyo Night Light (Gogh)"
+		-- return "Tokyo Night Light (Gogh)"
+		return "Tokyo Night"
 	end
 end
 
@@ -18,8 +19,9 @@ if wezterm.config_builder then
 end
 
 -- Appearance
-config.font = wezterm.font("JetBrainsMono Nerd Font")
+-- config.font = wezterm.font("JetBrainsMono Nerd Font")
 -- config.font = wezterm.font("FiraCode Nerd Font")
+config.font = wezterm.font("Fira Code")
 config.font_size = 16.0
 config.color_scheme = color_scheme_for_appearance(wezterm.gui.get_appearance())
 config.window_decorations = "RESIZE"
