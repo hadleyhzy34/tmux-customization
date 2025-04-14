@@ -1,0 +1,5 @@
+return {
+  "hadleyhzy34/ollama_popup.nvim",
+  -- name = "ollama_popup",
+  -- dev = { true },
+}

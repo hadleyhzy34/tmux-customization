@@ -40,13 +40,16 @@ keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
 
--- Resize window
-keymap.set("n", "<C-w><left>", "<C-w><")
-keymap.set("n", "<C-w><right>", "<C-w>>")
-keymap.set("n", "<C-w><up>", "<C-w>+")
-keymap.set("n", "<C-w><down>", "<C-w>-")
+-- -- Resize window
+-- keymap.set("n", "<C-w><left>", "<C-w><")
+-- keymap.set("n", "<C-w><right>", "<C-w>>")
+-- keymap.set("n", "<C-w><up>", "<C-w>+")
+-- keymap.set("n", "<C-w><down>", "<C-w>-")
 
--- nvim surround
-keymap.set("n", "sa", "ys")
-keymap.set("n", "sr", "cs")
-keymap.set("n", "sd", "ds")
+keymap.set("n", "<leader>rn", ":IncRename ")
+
+-- Map <leader>o to call the OllamaPopup command
+vim.api.nvim_set_keymap("v", "<leader>o", ":OllamaPopup<CR>", { noremap = true, silent = true })
+
+-- ~/.config/nvim/lua/config/keymaps.lua
+vim.keymap.set("n", "<Leader>cd", ":Dox<CR>", { desc = "Generate Doxygen comment" })
